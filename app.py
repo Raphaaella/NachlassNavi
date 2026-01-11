@@ -444,7 +444,12 @@ app.title = "NachlassNavi"
 server = app.server
 
 app.layout = html.Div(
-    style={"maxWidth": "1200px", "margin": "24px auto", "fontFamily": "system-ui, -apple-system, Segoe UI, Roboto, Arial"},
+    style={"maxWidth": "1200px", 
+           "margin": "24px auto", 
+           "fontFamily": "system-ui, -apple-system, Segoe UI, Roboto, Arial", 
+           "minHeight": "100vh",
+           "display": "flex",
+           "flexDirection": "column",},
     children=[
         html.H2("NachlassNavi"),
         html.Div(
