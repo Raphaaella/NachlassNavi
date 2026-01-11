@@ -449,7 +449,7 @@ app.layout = html.Div(
         html.H2("NachlassNavi"),
         html.Div(
             style={"opacity": 0.85, "marginBottom": "16px"},
-            children="Assets erfassen \n• Erben + Verwandtschaft \n• Favoriten je Erbe \n• Restverteilung \n• Ausgleich \n• Erbschaftsteuer \n• XLSX Export",
+            children="Assets erfassen • Erben + Verwandtschaft • Favoriten je Erbe • Restverteilung • Ausgleich • Erbschaftsteuer • XLSX Export",
         ),
 
         dcc.Store(
