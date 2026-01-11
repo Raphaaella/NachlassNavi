@@ -405,6 +405,36 @@ def make_favorites_row(heir, asset_options, selected_asset_ids):
         ],
     )
 
+def privacy_footer():
+    return html.Footer(
+        style={
+            "marginTop": "40px",
+            "paddingTop": "16px",
+            "borderTop": "1px solid #e5e5e5",
+            "fontSize": "13px",
+            "color": "#555",
+            "lineHeight": "1.5",
+        },
+        children=[
+            html.Div([
+                html.Strong("Datenschutzhinweis"),
+            ]),
+            html.Div(
+                "Diese Webanwendung dient ausschließlich der interaktiven Berechnung und Visualisierung "
+                "von Erbverteilungen. Alle eingegebenen Daten (z. B. Namen, Vermögenswerte, Verwandtschaftsverhältnisse) "
+                "werden ausschließlich im Browser des Nutzers verarbeitet und nicht dauerhaft gespeichert."
+            ),
+            html.Div(
+                "Es erfolgt keine Speicherung in Datenbanken, keine Weitergabe an Dritte und kein Tracking des Nutzerverhaltens. "
+                "Beim Schließen oder Neuladen der Seite gehen alle Eingaben verloren."
+            ),
+            html.Div(
+                "Die Anwendung wird auf Servern des Hosting-Anbieters Render betrieben. "
+                "Die Datenübertragung erfolgt verschlüsselt (HTTPS). "
+                "Es werden keine Cookies zu Analyse- oder Marketingzwecken eingesetzt."
+            ),
+        ],
+    )
 
 # -----------------------------
 # Dash App
