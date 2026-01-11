@@ -447,6 +447,7 @@ app.layout = html.Div(
     style={"maxWidth": "1200px", "margin": "24px auto", "fontFamily": "system-ui, -apple-system, Segoe UI, Roboto, Arial"},
     children=[
         html.H2("NachlassNavi"),
+        privacy_footer(),
         html.Div(
             style={"opacity": 0.85, "marginBottom": "16px"},
             children="Assets erfassen \n• Erben + Verwandtschaft \n• Favoriten je Erbe \n• Restverteilung \n• Ausgleich \n• Erbschaftsteuer \n• XLSX Export",
