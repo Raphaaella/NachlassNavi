@@ -22,7 +22,7 @@ RELATIONS = [
     {"label": "Kind / Stiefkind", "value": "child"},
     {"label": "Enkel (Eltern leben)", "value": "grandchild"},
     {"label": "Enkel (Eltern vorverstorben)", "value": "grandchild_parent_dead"},
-    {"label": "Eltern / Großeltern (Erwerb von Todes wegen)", "value": "parents"},
+    {"label": "Eltern / Großeltern", "value": "parents"},
     {"label": "Geschwister / Nichte/Neffe / Schwiegerkind / Schwiegereltern / gesch. Ehegatte", "value": "class2"},
     {"label": "Sonstige (nicht verwandt / entfernte Verwandte)", "value": "class3"},
 ]
